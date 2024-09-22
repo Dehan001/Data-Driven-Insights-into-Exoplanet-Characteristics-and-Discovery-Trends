@@ -1,1 +1,2 @@
-# Data-Driven-Insights-into-Exoplanet-Characteristics-and-Discovery-Trends
+# Data Driven Insights into Exoplanet Characteristics and Discovery Trends
+Tableau Public View : https://public.tableau.com/app/profile/farhan.noor.dehan/viz/Data-DrivenInsightsintoExoplanetCharacteristicsandDiscoveryTrends/Data-DrivenInsightsintoExoplanetCharacteristicsandDiscoveryTrends
