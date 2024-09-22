@@ -5,11 +5,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--chromedriver_path', type=str, help="Check where the Chromedriver is in your PC and share the path")
+args = parser.parse_args()
+
 columns = ["Planet Name", "Parsecs from Earth", "Planet Mass", "Stellar Magnitude", "Discovery Date", "Planet Radius", "Planet Type", "Discovery Method", "Orbital Radius", "Orbital Period", "Eccentricity"]
 
 def main():
     exoplanet_content = []
-    webdriver_path = r"C:\Program Files (x86)\chromedriver.exe"
+    # webdriver_path = r"C:\Program Files (x86)\chromedriver.exe"
+    webdriver_path = args.chromedriver_path
     service = Service(webdriver_path)
     driver = webdriver.Chrome(service=service)
 
