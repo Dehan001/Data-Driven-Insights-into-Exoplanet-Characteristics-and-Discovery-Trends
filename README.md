@@ -14,5 +14,8 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+4. Download Chromedriver from https://googlechromelabs.github.io/chrome-for-testing/
+
+
 
 Tableau Public View : https://public.tableau.com/app/profile/farhan.noor.dehan/viz/Data-DrivenInsightsintoExoplanetCharacteristicsandDiscoveryTrends/Data-DrivenInsightsintoExoplanetCharacteristicsandDiscoveryTrends
